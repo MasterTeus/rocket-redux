@@ -1,11 +1,17 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter } from 'react-router-dom';
+
+/**
+ * Router
+ */
+import Router from './router';
 
 function App() {
   return (
-    <div>
-      <h1>Ola Mundo</h1>
-    </div>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   );
 }
 
