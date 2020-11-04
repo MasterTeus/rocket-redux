@@ -1,7 +1,10 @@
 import React from 'react';
-import './App.css';
 import { BrowserRouter } from 'react-router-dom';
-
+/**
+ * Stalys
+ */
+import GlobalStyles from './styles/globalStyles'
+import './App.css';
 /**
  * Router
  */
@@ -11,6 +14,7 @@ function App() {
   return (
     <BrowserRouter>
       <Router />
+      <GlobalStyles />
     </BrowserRouter>
   );
 }
